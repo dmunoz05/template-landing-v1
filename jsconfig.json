@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "landing-v1/*": ["./src/*"]
+    }
+  }
+}
