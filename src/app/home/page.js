@@ -7,14 +7,14 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative h-[80vh] flex flex-col justify-center items-center text-center bg-cover bg-center bg-[url('/futbol.jpg')]">
+      <section className="relative h-[80vh] flex flex-col justify-center items-center text-center bg-cover bg-center bg-[url('/foto.png')]">
         <div className="absolute inset-0 bg-black/60"></div>
-        <motion.div
-          initial={{ opacity: 0, y: -30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
-          className="relative z-10 text-white"
-        >
+          <motion.div
+            initial={{ opacity: 1, y: -30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            className="relative z-10 text-white"
+          >
           <h1 className="text-5xl md:text-6xl font-extrabold mb-4">Bienvenido al Club</h1>
           <p className="text-lg md:text-xl">Pasión, disciplina y trabajo en equipo.</p>
         </motion.div>
